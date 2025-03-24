@@ -24,6 +24,7 @@ const footer = ejs.render(fs.readFileSync("./src/templates/footer.html", "utf8")
 export default defineConfig({
     plugins: [
         createHtmlPlugin({
+            base: '/flowershop-online/',
             minify: false, // Minify HTML
             template: './index.html',
             inject: {
