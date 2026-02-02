@@ -170,7 +170,7 @@
   /**
    * Initiate glightbox
    */
-  const glightbox = GLightbox({
+  const glightbox = glightbox({
     selector: '.glightbox'
   });
 
@@ -225,7 +225,7 @@
   /**
    * Initiate portfolio lightbox 
    */
-  const portfolioLightbox = GLightbox({
+  const portfolioLightbox = glightbox({
     selector: '.portfolio-lightbox'
   });
 
